@@ -1,5 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    cout << "hello world !";
+
+int main() {
+    int marks;
+
+    cout << "Enter your marks: ";
+    cin >> marks;
+
+    if (marks >= 50) {
+        cout << "Pass";
+    } else {
+        cout << "Fail";
+    }
+
+    return 0;
 }
